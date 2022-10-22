@@ -1,6 +1,6 @@
 package com.springdemoapp.learnSpring.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole{
 
 
     public void up(){

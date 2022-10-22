@@ -2,10 +2,9 @@ package com.springdemoapp.learnSpring.game;
 
 public class GameRunner {
 
-    private MarioGame game;
-    private SuperContra game2;
-    public GameRunner(SuperContra game) {
-        this.game2 = game;
+    private GamingConsole game;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
     public void run(){
